@@ -118,6 +118,7 @@ cards.forEach((card) => {
 
 function startCountingTime(startTime) {
   let currentTime = startTime;
+  lastTime = null;
 
   const intervalId = setInterval(() => {
     currentTime += 1000; // Increment time by 1 second (1000 milliseconds)
